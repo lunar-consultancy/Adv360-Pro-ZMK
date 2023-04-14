@@ -1,8 +1,14 @@
+macro_resume: macro_resume{
+compatible = "zmk,behavior-macro";
+label = "macro_resume";
+#binding-cells = <0>;
+bindings = <&kp LALT>, <&kp LGUI>, <&kp R>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
 #binding-cells = <0>;
-bindings = <&kp LALT>, <&kp LGUI>, <&kp R>;
+bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
 };
 macro_dquotes: macro_dquotes{
 compatible = "zmk,behavior-macro";
